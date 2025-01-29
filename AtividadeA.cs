@@ -6,10 +6,10 @@ namespace PrimeiraAtividade
 		public static void Main()
 		{	
 			Console.Write("Digite o primeiro número: ");
-		 	float numero = Convert.ToSingle(Console.ReadLine());
+		 	int numero = Convert.ToInt32(Console.ReadLine());
 			
 			Console.Write("Digite o segundo número: ");
-			float numero2 = Convert.ToSingle(Console.ReadLine());
+			int numero2 = Convert.ToInt32(Console.ReadLine());
 			
 			if (numero > numero2)
 			{ 
