@@ -11,9 +11,9 @@ namespace PrimeiraAtividade
 			Console.Write("Digite o segundo número: ");
 			float numero2 = Convert.ToSingle(Console.ReadLine());
 				
-			if (numero > numero2)
+			if (numero < numero2)
 			{ 
-				Console.WriteLine("\n\rO primeiro número é maior que o segundo");
+				Console.WriteLine("\n\rO primeiro número é menor que o segundo");
 			}
 			else if (numero == numero2)
 			{
